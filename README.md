@@ -1,70 +1,61 @@
 # ⚽ Titans Academy Futebol
 
 <p align="center">
-  <img src="public/assets/img/logo.png" width="180">
+  <img src="assets/img/logo.png" alt="Titans Academy Futebol" width="180">
 </p>
 
 <p align="center">
-Sistema completo para gestão administrativa, esportiva e institucional da <strong>Titans Academy Futebol</strong>.
+Sistema completo para gestão administrativa e esportiva de escolas de futebol.
 </p>
 
 ---
 
-# 📌 Sobre o projeto
+## Sobre o projeto
 
-O Titans Academy é uma plataforma desenvolvida para gerenciamento completo de uma escola de futebol.
+O **Titans Academy Futebol** é um sistema web desenvolvido para auxiliar na gestão completa de uma escola de futebol, centralizando informações administrativas, esportivas e institucionais em uma única plataforma.
 
-O sistema reúne ferramentas para administração da academia, gerenciamento de atletas, treinadores, competições, partidas, estatísticas, galeria multimídia e divulgação institucional.
-
-Além do gerenciamento interno, o sistema possui um portal público para apresentação da academia, notícias, competições, mural e histórico esportivo.
+O sistema permite gerenciar atletas, professores, categorias, competições, partidas, estatísticas, notícias, conteúdos multimídia e informações institucionais, oferecendo também um portal público para divulgação da academia.
 
 ---
 
-# 🚀 Funcionalidades
+# Principais funcionalidades
 
 ## Área Pública
 
 - Página inicial institucional
-- Sobre a Academia
-- Equipe Técnica
+- Sobre a academia
+- Equipe técnica
 - Atletas
 - Categorias
 - Competições
 - Partidas
+- Últimos resultados
+- Próximos jogos
 - Conquistas
-- Mural
 - Notícias
-- Galeria de Fotos
+- Galeria de fotos
 - Wallpapers
 - Vídeos
+- Mural
 - Contato
+- Redes sociais
 
 ---
 
 ## Área Administrativa
 
-### Dashboard
-
-- Estatísticas gerais
-- Atletas cadastrados
-- Professores
-- Categorias
-- Jogos
-- Competições
-- Notícias
-- Mensagens
-
----
+Painel administrativo completo para gerenciamento da academia.
 
 ### Atletas
 
-- Cadastro
+- Cadastro completo
 - Foto
 - Categoria
 - Posição
 - Dados pessoais
-- Histórico
-- CRUD completo
+- Responsáveis
+- Informações médicas
+- Histórico esportivo
 
 ---
 
@@ -74,12 +65,15 @@ Além do gerenciamento interno, o sistema possui um portal público para apresen
 - Cargo
 - Foto
 - Mini currículo
-- Licenças
 - Redes sociais
 
 ---
 
 ### Categorias
+
+Gerenciamento das categorias da academia.
+
+Exemplo:
 
 - Sub-07
 - Sub-09
@@ -93,218 +87,211 @@ Além do gerenciamento interno, o sistema possui um portal público para apresen
 
 ### Competições
 
-Cadastro de
+Cadastro de:
 
 - Campeonatos
-- Amistosos
-- Jogos Treino
 - Copas
 - Festivais
+- Amistosos
+- Jogos-treino
 
-Campos
+Informações:
 
 - Categoria
 - Formato
 - Local
-- Ano
+- Data
+- Regulamento
 - Descrição
 
 ---
 
 ### Times
 
-Cadastro dos clubes participantes
+Cadastro dos clubes participantes.
+
+Informações:
 
 - Nome
-- Logo
-- Categoria
+- Escudo
 - Técnico
 - Cidade
+- Categoria
 
 ---
 
 ### Partidas
 
-Cadastro completo
+Cadastro completo de partidas.
 
 - Data
-- Hora
-- Competição
+- Horário
 - Local
+- Competição
 - Mandante
 - Visitante
-- Logo dos clubes
+- Escudos
 - Placar
 
 ---
 
-### Elenco
+### Elencos
 
-Separação por equipe
+Cada partida possui:
 
-Relacionados
-
-Reservas
-
-Técnicos
+- Titulares
+- Reservas
+- Comissão técnica
+- Técnico responsável
 
 ---
 
 ### Súmula
 
-Registro completo de eventos
+Registro completo dos eventos da partida.
+
+Eventos suportados:
 
 - Gol
 - Assistência
-- Cartão Amarelo
-- Cartão Vermelho
+- Cartão amarelo
+- Cartão vermelho
 - Substituição
 
-Cada evento registra
+Cada evento registra:
 
-- Clube
+- Equipe
 - Atleta
-- Tempo
+- Tempo da partida
 - Minuto
+- Observações
 
 ---
 
 ### Estatísticas
 
-Automáticas
+O sistema gera automaticamente:
 
+- Jogos disputados
+- Vitórias
+- Empates
+- Derrotas
+- Gols marcados
+- Gols sofridos
+- Saldo de gols
 - Artilharia
 - Assistências
-- Jogos
-- Vitórias
-- Derrotas
 - Cartões
 
 ---
 
 ### Conquistas
 
-Cadastro manual
+Gerenciamento dos títulos conquistados pela academia.
 
-Sincronização automática das competições
-
-Galeria de títulos
+- Cadastro manual
+- Associação às competições
+- Galeria pública
 
 ---
 
 ### Notícias
 
-CRUD completo
+Publicação de notícias e comunicados.
 
 ---
 
-### Multimídia
+### Galeria Multimídia
 
-Fotos
-
-Vídeos
-
-Wallpapers
+- Fotos
+- Vídeos
+- Wallpapers
 
 ---
 
 ### Mural
 
-Mensagens públicas
-
-Nome obrigatório
-
-Email obrigatório
-
-Sem aprovação
+Espaço para mensagens enviadas pelos visitantes.
 
 ---
 
 ### Personalização
 
-- Banner inicial
-- Sobre nós
-- Redes sociais
-- Logos
+Permite configurar:
+
+- Logo
+- Banner principal
 - Informações institucionais
+- Redes sociais
+- Rodapé
+- Dados de contato
 
 ---
 
-# 🛠 Tecnologias
+# Tecnologias utilizadas
 
-- PHP 8
+- PHP 8+
 - MySQL
-- Bootstrap
-- JavaScript
 - HTML5
 - CSS3
+- JavaScript
+- Bootstrap
 - Font Awesome
 - PDO
 
 ---
 
-# 📂 Estrutura
+# Requisitos
 
-```
-/
-├── admin/
-├── assets/
-├── config/
-├── database/
-├── uploads/
-├── public/
-├── includes/
-├── index.php
-└── README.md
-```
+- PHP 8.0 ou superior
+- MySQL 5.7 ou superior
+- Apache ou Nginx
+- Extensão PDO habilitada
 
 ---
 
-# 💻 Instalação
+# Instalação
 
-Clone o projeto
+## 1. Clone o repositório
 
 ```bash
 git clone https://github.com/SEU-USUARIO/titans-academy.git
 ```
 
-Entre na pasta
+## 2. Acesse a pasta
 
 ```bash
 cd titans-academy
 ```
 
-Crie o banco
+## 3. Crie um banco de dados
 
 ```
 escolinha_futebol
 ```
 
-Importe
+## 4. Importe o arquivo SQL
 
 ```
 database.sql
 ```
 
-Configure
+## 5. Configure a conexão
+
+Edite:
 
 ```
 config/config.php
 ```
 
-Exemplo
+Informando:
 
-```php
-DB_HOST=localhost
+- Host
+- Banco
+- Usuário
+- Senha
 
-DB_NAME=escolinha_futebol
-
-DB_USER=root
-
-DB_PASS=
-```
-
-Execute
+## 6. Execute
 
 ```
 http://localhost/titans-academy
@@ -312,143 +299,61 @@ http://localhost/titans-academy
 
 ---
 
-# 🔐 Login
-
-Administrador
+# Estrutura do projeto
 
 ```
-Usuário:
+admin/
+assets/
+config/
+database/
+includes/
+uploads/
 
-admin
-
-Senha:
-
-********
+index.php
+login.php
+logout.php
 ```
 
 ---
 
-# 📷 Funcionalidades do Portal
+# Perfis de utilização
 
-✅ Notícias
+O sistema foi desenvolvido para atender:
 
-✅ Atletas
-
-✅ Professores
-
-✅ Competições
-
-✅ Jogos
-
-✅ Estatísticas
-
-✅ Galeria
-
-✅ Wallpapers
-
-✅ Vídeos
-
-✅ Mural
+- Escolas de futebol
+- Academias esportivas
+- Projetos sociais
+- Clubes de formação
+- Centros de treinamento
+- Equipes amadoras
 
 ---
 
-# 📊 Estatísticas
+# Objetivos do sistema
 
-O sistema gera automaticamente
-
-- Jogos
-
-- Gols
-
-- Assistências
-
-- Cartões
-
-- Artilharia
-
-- Conquistas
+- Centralizar informações administrativas.
+- Organizar competições e partidas.
+- Registrar estatísticas esportivas.
+- Divulgar a academia na internet.
+- Facilitar a comunicação com atletas e responsáveis.
+- Preservar o histórico esportivo da instituição.
 
 ---
 
-# 📄 Documentação
+# Segurança
 
-Em desenvolvimento
+O sistema utiliza:
 
-- API
-
-- Manual Administrativo
-
-- Manual do Treinador
-
-- Manual do Atleta
+- Sessões autenticadas
+- Controle de acesso ao painel administrativo
+- Prepared Statements (PDO)
+- Upload controlado de arquivos
+- Organização separada entre área pública e administrativa
 
 ---
 
-# 🔄 Controle de versões
+# Licença
 
-| Versão | Descrição |
-|---------|-----------|
-| V1 | Estrutura inicial |
-| V2 | Área administrativa |
-| V3 | Atletas |
-| V4 | Notícias |
-| V5 | Competições |
-| V5.1 | Correções banco |
-| V6 | Estatísticas |
-| V6.1 | Correções |
-| V6.3 | Redes sociais e detalhes das partidas |
-| V6.4 | Nova súmula e melhorias visuais |
+Este projeto é de uso exclusivo da **Titans Academy Futebol**.
 
----
-
-# 📌 Roadmap
-
-## V7
-
-- Prontuário do atleta
-
-- Ficha automática
-
-- PDF
-
-- Carteirinha
-
-- QR Code
-
----
-
-## V8
-
-- Financeiro
-
-- Mensalidades
-
-- PIX
-
-- Recibos
-
----
-
-## V9
-
-- Aplicativo Mobile
-
-- Área do atleta
-
-- Área do responsável
-
-- Notificações
-
----
-
-# 🤝 Contribuição
-
-Este projeto é de uso exclusivo da Titans Academy Futebol.
-
----
-
-# 📜 Licença
-
-Projeto privado.
-
-Todos os direitos reservados © Titans Academy Futebol.
+Todos os direitos reservados.
